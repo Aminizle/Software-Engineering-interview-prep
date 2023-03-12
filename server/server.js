@@ -23,7 +23,7 @@ app.get("/", async (req, res) => {
   });
   try {
     await question.save();
-    res.send("Inserted Data")
+    res.send("Inserted Data");
   } catch (err) {
     console.log(err);
   }
